@@ -46,6 +46,53 @@
                 </ul>
             </li>
             
+             <!-- Menú desplegable para la gestión de la nube -->
+            <li class="treeview">
+                <a href="#">
+                    <!-- Icono de la nube -->
+                    <i class="fa fa-cloud"></i>
+                    <span>Gestión Cloud</span>
+                    <!-- Contenedor para el icono de la flecha que indica un menú desplegable -->
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <!-- Submenú desplegable de gestión de la nube -->
+                <ul class="treeview-menu">
+                    <!-- Opción: Crear Quotes -->
+                    <li>
+                        <a href="quotes-cloud">
+                            <i class="fa fa-circle-o"></i>
+                            <span>Crear Quotes</span>
+                        </a>
+                    </li>
+                    <!-- Opción: Precios venta Quotes Cloud -->
+                    <?php if ($isSuperAdmin || $isAdmin): ?>
+                    <li>
+                        <a href="quotes-cloud-precios-venta">
+                            <i class="fa fa-circle-o"></i>
+                            <span>Precios Venta Cloud</span>
+                        </a>
+                    </li>
+                    <?php endif; ?>
+                       <!-- Opción: Reporte solo mis Quotes -->
+                        <li>
+                            <a href="quotes-cloud-reportes">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Mis Quotes</span>
+                            </a>
+                        </li>
+                        <!-- Opción: Reportes de todas las quotes -->
+                        <?php if ($isSuperAdmin || $isAdmin): ?>
+                        <li>
+                            <a href="quotes-cloud-reportes">
+                                <i class="fa fa-circle-o"></i>
+                                <span>Reportes All Quotes</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+                </ul>
+            </li>
 
             <?php if ($isSuperAdmin): ?>
             <!-- Opción: Usuarios (solo visible para el superadministrador (YO)) -->
