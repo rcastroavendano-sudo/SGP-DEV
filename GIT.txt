@@ -13,6 +13,7 @@ Comandos basicos
 
 Para eliminar cualquier historial de git en el directorio SGP-PROD en powershell 
 --------------------------------------------------------------------------------
+cd C:\xampp\htdocs\SGP-PROD
 Remove-Item -Recurse -Force .git
 
 
