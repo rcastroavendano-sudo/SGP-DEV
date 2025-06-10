@@ -19,3 +19,42 @@ Stack trace:
 #5 C:\xampp\htdocs\SGP-DEV\index.php(19): ControladorPlantilla->ctrPlantilla()
 #6 {main}
   thrown in C:\xampp\htdocs\SGP-DEV\modelos\usuarios.modelo.php on line 64
+[10-Jun-2025 09:56:35 America/Santiago] Usuario:|rcastro| Ingreso al sistema
+[10-Jun-2025 10:06:03 America/Santiago] Usuario:|rcastro| Ingreso al sistema
+[10-Jun-2025 10:06:06 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:06:06 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:06:06 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:15:50 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:15:50 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:15:50 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:29:38 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:29:38 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:29:38 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:30:49 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:30:49 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:30:49 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:31:33 America/Santiago] Usuario:|rcastro| Ingreso al sistema
+[10-Jun-2025 10:31:37 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:31:37 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:31:37 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:42 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:42 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:42 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:48 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:48 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:48 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:49 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:49 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:35:49 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:37:55 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:37:55 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:37:55 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:42:55 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:42:55 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:42:55 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:48:00 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:48:00 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 10:48:00 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 11:13:19 America/Santiago] obtenerValorDCBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 11:13:19 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet
+[10-Jun-2025 11:13:19 America/Santiago] obtenerValorDCUBellet: valorItem asignado -> DC_bellet

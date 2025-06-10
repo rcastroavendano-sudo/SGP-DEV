@@ -213,10 +213,10 @@ function actualizarCostoCadaFila() {
                 valorFila += valor * sqlVdisk; // Multiplica el valor de disco por su costo
             }
             else if (baseName === "cals") {
-                valorFila += valor * Number(sqlSOCals); // Multiplica el valor de disco por su costo
+                valorFila += valor * sqlSOCals; // Multiplica el valor de disco por su costo
             }
             else if (baseName === "sal") {
-                valorFila += valor * Number(sqlBDSAL); // Multiplica el valor de disco por su costo
+                valorFila += valor * sqlBDSAL; // Multiplica el valor de disco por su costo
            }
 
             // Campo Qty: asegura que no sea 0 ni vacío
@@ -384,6 +384,10 @@ function agregarFila() {
 
                         bwinetlp.disabled=true;
                         bwinetls.disabled=true;
+
+                        // Restablecer selects de Liray a la opción por defecto ¿BW Internet?
+                        bwinetlp.selectedIndex = 0;
+                        bwinetls.selectedIndex = 0;
                     }
                     else if (this.value === "Liray") {
                         bwinetbp.disabled=true;
@@ -391,6 +395,10 @@ function agregarFila() {
                         
                         bwinetlp.disabled=false;
                         bwinetls.disabled=false;
+
+                        // Restablecer selects de Bellet a la opción por defecto ¿BW Internet?
+                        bwinetbp.selectedIndex = 0;
+                        bwinetbs.selectedIndex = 0;
                     }
                     else if (this.value === "Ambos") {
                         bwinetbp.disabled=false;
@@ -526,9 +534,9 @@ function agregarFila() {
                 // Select para ancho de banda de internet para el enlace primario de Bellet
                 nuevaCelda.appendChild(crearSelect(columna, `
                     <option value="" selected>¿BW Internet?</option>
-                    <option value="100Mbps">101 Mbps Simétrico</option>
-                    <option value="200Mbps">201 Mbps Simétrico</option>
-                    <option value="300Mbps">301 Mbps Simétrico</option>
+                    <option value="100Mbps">100 Mbps Simétrico</option>
+                    <option value="200Mbps">200 Mbps Simétrico</option>
+                    <option value="300Mbps">300 Mbps Simétrico</option>
                 `, function () {
                     // Llamar a la función que actualizará el costo de la fila
                     actualizarCostoCadaFila.call(this);
@@ -539,9 +547,9 @@ function agregarFila() {
                 // Select para ancho de banda de internet para el enlace secundario de Bellet
                 nuevaCelda.appendChild(crearSelect(columna, `
                     <option value="" selected>¿BW Internet?</option>
-                    <option value="100Mbps">102 Mbps Simétrico</option>
-                    <option value="200Mbps">202 Mbps Simétrico</option>
-                    <option value="300Mbps">302 Mbps Simétrico</option>
+                    <option value="100Mbps">100 Mbps Simétrico</option>
+                    <option value="200Mbps">200 Mbps Simétrico</option>
+                    <option value="300Mbps">300 Mbps Simétrico</option>
                 `, function () {
                     // Llamar a la función que actualizará el costo de la fila
                     actualizarCostoCadaFila.call(this);
@@ -552,9 +560,9 @@ function agregarFila() {
                 // Select para ancho de banda de internet para el enlace primario de Liray
                 nuevaCelda.appendChild(crearSelect(columna, `
                     <option value="" selected>¿BW Internet?</option>
-                    <option value="100Mbps">103 Mbps Simétrico</option>
-                    <option value="200Mbps">203 Mbps Simétrico</option>
-                    <option value="300Mbps">303 Mbps Simétrico</option>
+                    <option value="100Mbps">100 Mbps Simétrico</option>
+                    <option value="200Mbps">200 Mbps Simétrico</option>
+                    <option value="300Mbps">300 Mbps Simétrico</option>
                 `, function () {
                     // Llamar a la función que actualizará el costo de la fila
                     actualizarCostoCadaFila.call(this);
@@ -565,9 +573,9 @@ function agregarFila() {
                 // Select para ancho de banda de internet para el enlace secundario de Liray
                 nuevaCelda.appendChild(crearSelect(columna, `
                     <option value="" selected>¿BW Internet?</option>
-                    <option value="100Mbps">104 Mbps Simétrico</option>
-                    <option value="200Mbps">204 Mbps Simétrico</option>
-                    <option value="300Mbps">304 Mbps Simétrico</option>
+                    <option value="100Mbps">100 Mbps Simétrico</option>
+                    <option value="200Mbps">200 Mbps Simétrico</option>
+                    <option value="300Mbps">300 Mbps Simétrico</option>
                 `, function () {
                     // Llamar a la función que actualizará el costo de la fila
                     actualizarCostoCadaFila.call(this);
